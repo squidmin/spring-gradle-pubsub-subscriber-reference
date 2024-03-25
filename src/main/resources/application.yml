@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-gradle-pubsub-subscriber-reference
+  cloud:
+    gcp:
+      project-id: lofty-root-378503
+#      pubsub:
+#        emulator-host: 8085
+
+logging:
+  level:
+    root: INFO
+    org.squidmin.spring.gradle: DEBUG
+    org.squidmin.spring.gradle.pubsub.publisher: DEBUG
+    org.squidmin.spring.gradle.pubsub.subscriber: DEBUG
+  file:
+    name: application.log
